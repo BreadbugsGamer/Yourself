@@ -1,0 +1,58 @@
+The simplest setup is just an index.html file:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Search</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 64px;
+            margin-bottom: 30px;
+        }
+
+        input {
+            width: 500px;
+            padding: 15px 20px;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            font-size: 18px;
+            outline: none;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>MY PAGE</h1>
+
+    <form action="https://www.google.com/search">
+        <input name="q" placeholder="Search Google...">
+        <br>
+        <button type="submit">Google Search</button>
+    </form>
+</div>
+
+</body>
+</html>
